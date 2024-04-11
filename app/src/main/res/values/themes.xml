@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotesExp2" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.NotesExp2" parent="Base.Theme.NotesExp2" />
+    
+<style name="BottomSheetStyle" parent="Theme.Design.BottomSheetDialog">
+    <item name="bottomSheetStyle">@style/Modal</item>
+</style>
+
+    <style name="Modal" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/delete_sheet</item>
+    </style>
+    
+</resources>
